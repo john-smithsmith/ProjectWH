@@ -22,6 +22,9 @@ namespace ProjectWh
             {
                 Console.Clear();
                 curScene.Render();
+                Console.WriteLine("--------------------");
+                RenderInventory();
+                Console.WriteLine("--------------------");
                 curScene.Input();
                 curScene.Update();
                 curScene.Result();
@@ -44,7 +47,9 @@ namespace ProjectWh
             sceneDic.Add("Cave04", new Cave04Scene());
             sceneDic.Add("Boss", new BossScene());//보스룸
             sceneDic.Add("Shop", new ShopScene());
-            
+
+            player.Inventory.AddItem(ItemFactory.CreateGold(10));
+
             curScene = sceneDic["Title"];
         }
 

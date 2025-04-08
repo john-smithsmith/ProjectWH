@@ -9,9 +9,24 @@ namespace ProjectWh
     public class Cave04Scene : MainScene
     {
         private ConsoleKey input;
+        private Monster monster;
+
+
+        public Cave04Scene()
+        {
+            monster = MonsterFactory.CreateCave04Scarecrow();
+           
+        }
+
+
         public override void Render()
         {
             Console.WriteLine("4번동굴");
+            Console.WriteLine($"몬스터: {monster.Name} (HP: {monster.Hp})");
+            Console.WriteLine
+                ($"플레이어 HP: {Game.player.HP}," +//나중에 고칠것
+                $" 공격력: {Game.player.Attack}," +
+                $" 소지 골드: {Game.player.Gold}");
         }
 
         public override void Input()

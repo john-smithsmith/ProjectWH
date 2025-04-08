@@ -22,7 +22,9 @@ namespace ProjectWh
         {
             Console.WriteLine("1번동굴");
             Console.WriteLine($"몬스터: {monster.Name} (HP: {monster.Hp})");
-            Console.WriteLine($"플레이어 HP: {Game.player.HP}, 공격력: {Game.player.Attack}," +
+            Console.WriteLine
+                ($"플레이어 HP: {Game.player.HP}," +//나중에 고칠것
+                $" 공격력: {Game.player.Attack}," +
                 $" 소지 골드: {Game.player.Gold}");
         }
 
