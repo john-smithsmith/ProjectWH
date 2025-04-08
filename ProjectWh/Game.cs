@@ -22,11 +22,10 @@ namespace ProjectWh
             {
                 Console.Clear();
                 curScene.Render();
-                Console.WriteLine("--------------------");
-                RenderInventory();
-                Console.WriteLine("--------------------");
+                
                 curScene.Input();
                 curScene.Update();
+                
                 curScene.Result();
             }
             End();
@@ -58,10 +57,7 @@ namespace ProjectWh
             curScene = sceneDic[sceneName];
         }
 
-        private static void RenderInventory()
-        {
-            player.Inventory.DisplayInventory(); 
-        }
+        
 
         private static void End()
         {

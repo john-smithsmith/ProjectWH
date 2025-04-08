@@ -24,8 +24,12 @@ namespace ProjectWh
             Inventory = new Inventory();
         }
 
+        public void GainGold(int amount)
+        {
+            Gold += amount;
+            Console.WriteLine($"{amount} 골드획득 현재 소지 골드: {Gold}");
+        }
 
-       
 
     }
 }
