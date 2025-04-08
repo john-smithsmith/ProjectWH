@@ -44,12 +44,18 @@ namespace ProjectWh
             sceneDic.Add("Cave04", new Cave04Scene());
             sceneDic.Add("Boss", new BossScene());//보스룸
             sceneDic.Add("Shop", new ShopScene());
+            
             curScene = sceneDic["Title"];
         }
 
         public static void ChangeScene(string sceneName)
         {
             curScene = sceneDic[sceneName];
+        }
+
+        private static void RenderInventory()
+        {
+            player.Inventory.DisplayInventory(); 
         }
 
         private static void End()

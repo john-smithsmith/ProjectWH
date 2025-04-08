@@ -10,8 +10,8 @@ namespace ProjectWh
     public class Monster
     {
         public string Name { get; protected set; }
-        public int HP { get; protected set; }
-        public int Atk { get; protected set; }
+        public int Hp { get; protected set; }
+        
         public Item DropItem { get; protected set; }
     }
 
@@ -20,8 +20,7 @@ namespace ProjectWh
         public DummyScarecrow(string name, int hp, Item dropItem = null)
         {
             Name = name;
-            HP = hp;
-            Atk = 0; 
+            Hp = hp;
             DropItem = dropItem;
         }
     }

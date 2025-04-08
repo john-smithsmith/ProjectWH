@@ -9,7 +9,7 @@ namespace ProjectWh
     public class Item
     {
         public string Name { get; protected set; }
-        
+
     }
 
     public class WoodSword : Item
@@ -19,8 +19,43 @@ namespace ProjectWh
         public WoodSword()
         {
             Name = "목검";
-            
-            WeaponAtk = 5; // 목검의 공격력 보너스
+
+            WeaponAtk = 10;
+        }
+    }
+
+    public class RustSword : Item
+    {
+        public int WeaponAtk { get; private set; }
+
+        public RustSword()
+        {
+            Name = "녹슨검";
+
+            WeaponAtk = 20;
+        }
+    }
+
+    public class IronSword : Item
+    {
+        public int WeaponAtk { get; private set; }
+
+        public IronSword()
+        {
+            Name = "강철검";
+
+            WeaponAtk = 30;
+        }
+    }
+
+
+    public class Gold : Item
+    {
+        public int Amout { get; private set; }
+        public Gold(int amount)
+        {
+            Name = "골드";
+            Amout = amount;
         }
     }
 }
