@@ -31,7 +31,14 @@ namespace ProjectWh
             GameOver = false;
             sceneDic = new Dictionary<string, MainScene>();
             sceneDic.Add("Title", new TitleScene());
+            sceneDic.Add("Start", new StartScene());
+            sceneDic.Add("Cave01", new Cave01Scene());
             curScene = sceneDic["Title"];
+        }
+
+        public static void ChangeScene(string sceneName)
+        {
+            curScene = sceneDic[sceneName];
         }
 
         private static void End()
