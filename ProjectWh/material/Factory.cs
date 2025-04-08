@@ -18,12 +18,11 @@ namespace ProjectWh
 
     public static class MonsterFactory
     {
-        public static Monster CreateDummyScarecrow()
+        public static Monster CreateDummyScarecrow(string name, int hp, Item dropItem = null)
         {
-            Item woodSword = ItemFactory.CreateWoodSword();
-            return new DummyScarecrow(woodSword);
+            return new DummyScarecrow(name, hp, dropItem);
         }
 
-        
+
     }
 }

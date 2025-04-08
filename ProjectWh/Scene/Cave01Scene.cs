@@ -11,16 +11,13 @@ namespace ProjectWh
         private ConsoleKey input;
         private Monster monster;
 
-        public Cave01Scene()
-        {
-            monster = MonsterFactory.CreateDummyScarecrow();
-        }
+       
 
 
         public override void Render()
         {
             Console.WriteLine("1번동굴");
-            Console.WriteLine($"몬스터: {monster.Name} (HP: {monster.HP})");
+            Console.WriteLine($"몬스터: {monster.Name} (HP: {monster.Hp})");
         }
 
         public override void Input()

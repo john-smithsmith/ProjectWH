@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,10 +17,10 @@ namespace ProjectWh
 
     public class DummyScarecrow : Monster
     {
-        public DummyScarecrow(Item dropItem)
+        public DummyScarecrow(string name, int hp, Item dropItem = null)
         {
-            Name = "연습용 허수아비";
-            HP = 1000;
+            Name = name;
+            HP = hp;
             Atk = 0; 
             DropItem = dropItem;
         }
