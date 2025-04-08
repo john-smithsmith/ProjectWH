@@ -11,11 +11,20 @@ namespace ProjectWh
     {
         public int HP { get; private set; }
         public int Attack { get; private set; }
+        public Item EquipWeapon{ get; private set;}
+
+
+
 
         public Player()
         {
             HP = 100;
             Attack = 10;
+            EquipWeapon = null;
         }
+
+
+       
+
     }
 }
