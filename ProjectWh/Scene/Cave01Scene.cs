@@ -9,11 +9,18 @@ namespace ProjectWh
     public class Cave01Scene : MainScene
     {
         private ConsoleKey input;
+        private Monster monster;
+
+        public Cave01Scene()
+        {
+            monster = MonsterFactory.CreateDummyScarecrow();
+        }
 
 
         public override void Render()
         {
             Console.WriteLine("1번동굴");
+            Console.WriteLine($"몬스터: {monster.Name} (HP: {monster.HP})");
         }
 
         public override void Input()
@@ -31,7 +38,7 @@ namespace ProjectWh
             switch (input)
             { 
                 case ConsoleKey.D1:
-                Game.ChangeScene("");
+                Game.ChangeScene("Cave02");
                 break;
             }
         }
