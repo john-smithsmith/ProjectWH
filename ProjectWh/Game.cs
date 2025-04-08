@@ -11,6 +11,9 @@ namespace ProjectWh
         private static Dictionary<string, MainScene> sceneDic;
         private static MainScene curScene;
         private static bool GameOver;
+
+        
+
         public static void Run()
 
         {
@@ -29,10 +32,15 @@ namespace ProjectWh
         private static void Start()
         {
             GameOver = false;
+
+            
+
             sceneDic = new Dictionary<string, MainScene>();
             sceneDic.Add("Title", new TitleScene());
             sceneDic.Add("Start", new StartScene());
             sceneDic.Add("Cave01", new Cave01Scene());
+            sceneDic.Add("Boss", new BossScene());
+            sceneDic.Add("Shop", new ShopScene());
             curScene = sceneDic["Title"];
         }
 
