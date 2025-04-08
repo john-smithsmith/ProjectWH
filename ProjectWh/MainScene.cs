@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ProjectWh
 {
-    internal class MainScene
+    public abstract class MainScene
     {
+        public abstract void Render();
+
+        public abstract void Input();
+
+        public abstract void Update();
+
+        public abstract void Result();
+        
     }
 }

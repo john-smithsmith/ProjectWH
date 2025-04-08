@@ -1,0 +1,15 @@
+D:\GitHub\ProjectWH\ProjectWh\bin\Debug\net8.0\ProjectWh.exe
+D:\GitHub\ProjectWH\ProjectWh\bin\Debug\net8.0\ProjectWh.deps.json
+D:\GitHub\ProjectWH\ProjectWh\bin\Debug\net8.0\ProjectWh.runtimeconfig.json
+D:\GitHub\ProjectWH\ProjectWh\bin\Debug\net8.0\ProjectWh.dll
+D:\GitHub\ProjectWH\ProjectWh\bin\Debug\net8.0\ProjectWh.pdb
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.AssemblyInfoInputs.cache
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.AssemblyInfo.cs
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.csproj.CoreCompileInputs.cache
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.sourcelink.json
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.dll
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\refint\ProjectWh.dll
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.pdb
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ProjectWh.genruntimeconfig.cache
+D:\GitHub\ProjectWH\ProjectWh\obj\Debug\net8.0\ref\ProjectWh.dll

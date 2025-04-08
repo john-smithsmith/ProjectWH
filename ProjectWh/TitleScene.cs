@@ -11,11 +11,12 @@ namespace ProjectWh
         public override void Render()
         {
             Console.WriteLine("타이틀화면출력");
+            Console.WriteLine("타이틀화면출력");
         }
 
         public override void Input()
         {
-            
+            Console.ReadKey();
         }
 
         public override void Update()
