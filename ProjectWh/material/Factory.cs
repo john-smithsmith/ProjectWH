@@ -13,15 +13,11 @@ namespace ProjectWh
             return new WoodSword();
         }
 
-        public static Item CreateRustSword()
+        public static Item CreateAtkPotion(int attackIncrease)
         {
-            return new RustSword();
+            return new AtkPotion(attackIncrease);
         }
 
-        public static Item CreateIronSword()
-        {
-            return new IronSword();
-        }
 
         public static Item CreateGold(int amount)
         {

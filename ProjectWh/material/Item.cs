@@ -24,28 +24,12 @@ namespace ProjectWh
         }
     }
 
-    public class RustSword : Item
+    public class AtkPotion : Item
     {
-        public int WeaponAtk { get; private set; }
+        public int AttackIncrease { get; private set; }
 
-        public RustSword()
-        {
-            Name = "녹슨검";
-
-            WeaponAtk = 20;
-        }
-    }
-
-    public class IronSword : Item
-    {
-        public int WeaponAtk { get; private set; }
-
-        public IronSword()
-        {
-            Name = "강철검";
-
-            WeaponAtk = 30;
-        }
+        public AtkPotion(int attackIncrease)
+            AttackIncrease = attackIncrease;
     }
 
 

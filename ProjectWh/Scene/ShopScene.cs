@@ -9,17 +9,14 @@ namespace ProjectWh
     public class ShopScene : MainScene
     {
         private ConsoleKey input;
-        private Item rustSword;
-        private int rustSwordPrice = 5; // 녹슨 검 가격
-        private Item ironSword;
-        private int ironSwordPrice = 10; // 강철 검 가격
+        private Item AtkPotion;
+        private int AtkPotionPrice = 15;
 
 
 
         public ShopScene()
         {
-            rustSword = ItemFactory.CreateRustSword();
-            ironSword = ItemFactory.CreateIronSword();
+            AtkPotion = ItemFactory.CreateAtkPotion(10)
         }
 
 
@@ -27,8 +24,8 @@ namespace ProjectWh
         {
             Console.WriteLine("상점");
             Console.WriteLine("-----");
-            Console.WriteLine($"[2] {rustSword.Name} (가격: {rustSwordPrice} 골드)");
-            Console.WriteLine($"[3] {ironSword.Name} (가격: {ironSwordPrice} 골드)");
+            Console.WriteLine($"[1] 공격력포션 (가격: {AtkPotionPrice} 골드)");
+            
             Console.WriteLine("[0] 나가기");
             Console.WriteLine("--------------------");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
@@ -52,15 +49,11 @@ namespace ProjectWh
                switch (input)
             {
                 case ConsoleKey.D1:
-                    Game.ChangeScene("");
+                    
+                    BuyItem(AtkPotion, AtkPotionPrice);
                     break;
 
-                case ConsoleKey.D2:
-                    BuyItem(rustSword, rustSwordPrice);
-                    break;
-                case ConsoleKey.D3:
-                    BuyItem(ironSword, ironSwordPrice);
-                    break;
+              
                 case ConsoleKey.D0:
                     Game.ChangeScene("");
                     break;
@@ -80,6 +73,8 @@ namespace ProjectWh
             else
             {
                 Console.WriteLine("골드가 부족합니다.");
+                Console.ReadKey(true);
+                Game.ChangeScene("Shop");
             }
             
             Console.ReadKey(true);
