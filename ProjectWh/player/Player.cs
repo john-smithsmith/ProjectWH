@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,8 +29,9 @@ namespace ProjectWh
         {
             Gold += amount;
             Console.WriteLine($"{amount} 골드획득 현재 소지 골드: {Gold}");
+            
         }
 
-
+        
     }
 }

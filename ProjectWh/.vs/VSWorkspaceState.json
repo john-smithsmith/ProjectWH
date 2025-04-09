@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\obj\\Debug",
+    "\\obj\\Release"
   ],
   "SelectedNode": "\\ProjectWh.sln",
   "PreviewInSolutionExplorer": false

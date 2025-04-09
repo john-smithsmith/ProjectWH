@@ -25,6 +25,9 @@ namespace ProjectWh
                 ($"플레이어 HP: {Game.player.HP}," +//나중에 고칠것
                 $" 공격력: {Game.player.Attack}," +
                 $" 소지 골드: {Game.player.Gold}");
+            Console.WriteLine("--------------------");
+            Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
+            Console.WriteLine("--------------------");
         }
 
         public override void Input()

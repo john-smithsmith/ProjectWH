@@ -47,7 +47,7 @@ namespace ProjectWh
             sceneDic.Add("Boss", new BossScene());//보스룸
             sceneDic.Add("Shop", new ShopScene());
 
-            player.Inventory.AddItem(ItemFactory.CreateGold(10));
+            
 
             curScene = sceneDic["Title"];
         }
