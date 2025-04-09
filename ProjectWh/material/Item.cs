@@ -24,12 +24,7 @@ namespace ProjectWh
         }
     }
 
-    public class AtkPotion : Item
-    {
-        public AtkPotion
-        Name = "공격력포션";
-           
-    }
+    
 
 
     public class Gold : Item

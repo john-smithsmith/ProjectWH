@@ -12,8 +12,11 @@ namespace ProjectWh
         private ConsoleKey input;
         public override void Render()
         {
-            Console.WriteLine("게임설명");
-            Console.WriteLine("동굴에 들어가실려면 1번을 눌러주세요");
+            Console.WriteLine("게임 시작");
+            Console.WriteLine("-----");
+            Console.WriteLine("[1] 모험을 떠난다"); // 월드맵으로 이동
+            Console.WriteLine("[2] 상점으로 간다");
+            Console.WriteLine("[0] 종료");
         }
 
         public override void Input()
@@ -31,8 +34,13 @@ namespace ProjectWh
             switch (input)
             {
                 case ConsoleKey.D1:
-                    Game.ChangeScene("Cave01");
+                    Game.ChangeScene("WorldMap"); // 월드맵으로 이동
                     break;
+                case ConsoleKey.D2:
+                    Game.ChangeScene("Shop");
+                    break;
+                
+                    
             }
         }
     }

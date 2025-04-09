@@ -40,6 +40,7 @@ namespace ProjectWh
             sceneDic = new Dictionary<string, MainScene>();
             sceneDic.Add("Title", new TitleScene());
             sceneDic.Add("Start", new StartScene());//배경설명
+            sceneDic.Add("WorldMap", new WorldMapScene());
             sceneDic.Add("Cave01", new Cave01Scene());//1번방-튜토리얼
             sceneDic.Add("Cave02", new Cave02Scene());
             sceneDic.Add("Cave03", new Cave03Scene());

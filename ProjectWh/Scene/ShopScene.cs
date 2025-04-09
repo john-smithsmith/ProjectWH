@@ -9,22 +9,17 @@ namespace ProjectWh
     public class ShopScene : MainScene
     {
         private ConsoleKey input;
-        private Item AtkPotion;
-        private int AtkPotionPrice = 15;
+       
 
 
-
-        public ShopScene()
-        {
-            AtkPotion = ItemFactory.CreateAtkPotion;
-        }
+       
 
 
         public override void Render()
         {
             Console.WriteLine("상점");
             Console.WriteLine("-----");
-            Console.WriteLine($"[1] 공격력포션 (가격: {AtkPotionPrice} 골드)");
+           
             
             Console.WriteLine("[0] 나가기");
             Console.WriteLine("--------------------");
@@ -50,9 +45,7 @@ namespace ProjectWh
             {
                 case ConsoleKey.D1:
                     
-                    BuyItem(AtkPotion, AtkPotionPrice);
-                    break;
-
+                   
               
                 case ConsoleKey.D0:
                     Game.ChangeScene("");
@@ -80,24 +73,7 @@ namespace ProjectWh
             Console.ReadKey(true);
         }
 
-        public void UseItem(int itemIndex)
-        {
-            if (itemIndex > 0 && itemIndex <= Items.Count)
-            {
-                Item selectedItem = Items[itemIndex - 1];
-
-                if (selectedItem is AtkPotion potion)
-                {
-                    Game.player.Attack += 5;
-                    RemoveItem(selectedItem); // 사용한 포션은 인벤토리에서 제거
-                    Console.WriteLine($"{selectedItem.Name} 사용하여 공격력이 상승 현재 공격력: {Game.player.Attack}");
-                }
-                else
-                {
-                    Console.WriteLine("해당 아이템은 사용할 수 없습니다.");
-                }
-            }
-        }
+       
 
 
 
