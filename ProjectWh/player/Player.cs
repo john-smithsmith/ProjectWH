@@ -24,8 +24,12 @@ namespace ProjectWh
             Inventory = new Inventory();
         }
 
-        
+        public void IncreaseAttack(int bonus)
+        {
+            Attack += bonus;
+            
+        }
 
-        
+
     }
 }

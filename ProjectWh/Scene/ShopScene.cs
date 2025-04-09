@@ -9,18 +9,20 @@ namespace ProjectWh
     public class ShopScene : MainScene
     {
         private ConsoleKey input;
-       
+        private AttackPotion forSalePotion;
 
-
-       
-
+        public ShopScene()
+        {
+           
+            forSalePotion = new AttackPotion("공격력 포션", 10, 150);
+        }
 
         public override void Render()
         {
             Console.WriteLine("상점");
-            Console.WriteLine("-----");
-           
-            
+            Console.WriteLine("--------------------");
+            Console.WriteLine($"[1] {forSalePotion.Name} - {forSalePotion.Price} 골드");
+
             Console.WriteLine("[0] 나가기");
             Console.WriteLine("--------------------");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
@@ -44,11 +46,15 @@ namespace ProjectWh
                switch (input)
             {
                 case ConsoleKey.D1:
-                    
-                   
-              
+                    BuyItem(forSalePotion, forSalePotion.Price);
+                    break;
                 case ConsoleKey.D0:
                     Game.ChangeScene("WorldMap");
+                    break;
+                default:
+                    Console.WriteLine("잘못된 입력입니다.");
+                    Console.ReadKey(true);
+                    Game.ChangeScene("Shop");
                     break;
 
             }
@@ -65,7 +71,7 @@ namespace ProjectWh
             }
             else
             {
-                Console.WriteLine("골드가 부족합니다.");
+                
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }

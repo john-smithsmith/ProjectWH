@@ -22,8 +22,7 @@ namespace ProjectWh
             Console.WriteLine("보스룸");
             Console.WriteLine($"보스 몬스터: {bossMonster.Name} (HP: {bossMonster.Hp})");
             Console.WriteLine
-                ($"플레이어 HP: {Game.player.HP}," +// 나중에 고칠것
-                $" 공격력: {Game.player.Attack}");
+                ($"플레이어 HP: {Game.player.HP}  공격력: {Game.player.Attack}");
             Console.WriteLine("--------------------");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
             Console.WriteLine("--------------------");

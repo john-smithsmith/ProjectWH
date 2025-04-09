@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin\\Debug",
-    "\\bin\\Release",
-    "\\obj\\Debug",
-    "\\obj\\Release"
+    "\\CaveScene",
+    "\\material",
+    "\\player",
+    "\\Scene"
   ],
   "SelectedNode": "\\ProjectWh.sln",
   "PreviewInSolutionExplorer": false

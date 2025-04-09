@@ -29,8 +29,7 @@ namespace ProjectWh
            
 
             Console.WriteLine
-                ($"플레이어 HP: {Game.player.HP}," +//나중에 고칠것
-                $" 공격력: {Game.player.Attack},");
+                ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
 
             Console.WriteLine("[E] 공격");
 

@@ -9,31 +9,43 @@ namespace ProjectWh
     public class Item
     {
         public string Name { get; protected set; }
+        public int Price { get; protected set; }
+
+        public Item(string name, int price = 0)
+        {
+            Name = name;
+            Price = price;
+        }
 
     }
 
-    public class WoodSword : Item
+
+    public class AttackPotion : Item
     {
-        public int WeaponAtk { get; private set; }
+        public int AttackBonus { get; private set; }
 
-        public WoodSword()
+        public AttackPotion(string name, int attackBonus, int price = 0) : base(name, price)
         {
-            Name = "목검";
+            AttackBonus = attackBonus;
+        }
 
-            WeaponAtk = 10;
+        public void Use(Player player)
+        {
+            player.IncreaseAttack(AttackBonus);
+            Console.WriteLine($"{Name}을 사용하여 공격력이 영구적으로 {AttackBonus}만큼 증가했습니다.");
         }
     }
 
-    
+
 
 
     public class Gold : Item
     {
-        public int Amout { get; private set; }
-        public Gold(int amount)
+        public int Amount { get; private set; }
+
+        public Gold(int amount) : base("골드")
         {
-            Name = "골드";
-            Amout = amount;
+            Amount = amount;
         }
     }
 }
