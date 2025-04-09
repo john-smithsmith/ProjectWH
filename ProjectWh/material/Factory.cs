@@ -13,9 +13,9 @@ namespace ProjectWh
             return new WoodSword();
         }
 
-        public static Item CreateAtkPotion(int attackIncrease)
+        public static Item CreateAtkPotion()
         {
-            return new AtkPotion(attackIncrease);
+            return new AtkPotion();
         }
 
 

@@ -16,7 +16,7 @@ namespace ProjectWh
 
         public ShopScene()
         {
-            AtkPotion = ItemFactory.CreateAtkPotion(10)
+            AtkPotion = ItemFactory.CreateAtkPotion;
         }
 
 
@@ -80,6 +80,24 @@ namespace ProjectWh
             Console.ReadKey(true);
         }
 
+        public void UseItem(int itemIndex)
+        {
+            if (itemIndex > 0 && itemIndex <= Items.Count)
+            {
+                Item selectedItem = Items[itemIndex - 1];
+
+                if (selectedItem is AtkPotion potion)
+                {
+                    Game.player.Attack += 5;
+                    RemoveItem(selectedItem); // 사용한 포션은 인벤토리에서 제거
+                    Console.WriteLine($"{selectedItem.Name} 사용하여 공격력이 상승 현재 공격력: {Game.player.Attack}");
+                }
+                else
+                {
+                    Console.WriteLine("해당 아이템은 사용할 수 없습니다.");
+                }
+            }
+        }
 
 
 

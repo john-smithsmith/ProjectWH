@@ -11,7 +11,7 @@ namespace ProjectWh
         public override void Render()
         {
             Console.WriteLine("타이틀화면출력");
-            Console.WriteLine("타이틀화면출력");
+            Console.WriteLine("  ");
             Console.WriteLine("시작할려면 아무키나 눌러주세요");
         }
 

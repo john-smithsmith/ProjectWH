@@ -26,10 +26,9 @@ namespace ProjectWh
 
     public class AtkPotion : Item
     {
-        public int AttackIncrease { get; private set; }
-
-        public AtkPotion(int attackIncrease)
-            AttackIncrease = attackIncrease;
+        public AtkPotion
+        Name = "공격력포션";
+           
     }
 
 
