@@ -70,7 +70,7 @@ namespace ProjectWh
 
         private void BuyItem(Item item, int price)
         {
-            if (Game.player.Inventory.SpendGold(price))
+            if (Game.player.Inventory.UseGold(price))
             {
                 Game.player.Inventory.AddItem(item);
                 Console.WriteLine($"{item.Name}을(를) {price} 골드에 구매했습니다.");

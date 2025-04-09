@@ -13,7 +13,7 @@ namespace ProjectWh
         public int HP { get; private set; }
         public int Attack { get; private set; }
         public Item EquipWeapon{ get; private set;}
-        public int Gold { get; private set; }
+       
         public Inventory Inventory { get; private set; }
 
         public Player()
@@ -21,16 +21,10 @@ namespace ProjectWh
             HP = 100;
             Attack = 10;
             EquipWeapon = null;
-            Gold = 0;
             Inventory = new Inventory();
         }
 
-        public void GainGold(int amount)
-        {
-            Gold += amount;
-            Console.WriteLine($"{amount} 골드획득 현재 소지 골드: {Gold}");
-            
-        }
+        
 
         
     }
