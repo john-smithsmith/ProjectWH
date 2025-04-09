@@ -17,8 +17,6 @@ namespace ProjectWh
         public Cave01Scene()
         {
             monster = MonsterFactory.CreateCave01Scarecrow();
-          
-
         }
 
 
@@ -26,13 +24,13 @@ namespace ProjectWh
         {
             
             Console.WriteLine("1번동굴");
-           
 
+            Console.WriteLine($"몬스터: {monster.Name} HP: {monster.Hp}");
             Console.WriteLine
                 ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
 
             Console.WriteLine("[E] 공격");
-
+            Console.WriteLine("[1] 월드맵으로 이동");
             Console.WriteLine("--------------------");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
             Console.WriteLine("--------------------");
@@ -45,7 +43,19 @@ namespace ProjectWh
 
         public override void Update()
         {
-           
+            // 몬스터가 살아있을 때만 업데이트 로직 실행
+            if (monster.Hp > 0)
+            {
+               
+            }
+            else
+            {
+                Console.WriteLine($"{monster.Name}을(를) 처치했습니다!");
+               
+                monster = MonsterFactory.CreateCave01Scarecrow(); 
+                Console.WriteLine("새로운 허수아비가 나타났습니다!");
+                Console.ReadKey(true); // 잠시 멈춤
+            }
         }
 
         public override void Result()
@@ -53,14 +63,24 @@ namespace ProjectWh
 
             switch (input)
             {
-
-
-                
-
-                case ConsoleKey.D1:
-                    Game.ChangeScene("Cave02");
+                case ConsoleKey.E:
+                    if (monster.Hp > 0)
+                    {
+                        Game.player.AttackMonster(monster); 
+                    }
+                    else
+                    {
+                        Console.WriteLine("공격할 대상이 없습니다.");
+                        Console.ReadKey(true);
+                    }
+                    
                     break;
-
+                case ConsoleKey.D1:
+                    Game.ChangeScene("WorldMap"); 
+                    break;
+                default:
+                    Game.ChangeScene("Cave01"); 
+                    break;
 
             }
 

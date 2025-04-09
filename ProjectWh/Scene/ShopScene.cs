@@ -19,14 +19,17 @@ namespace ProjectWh
 
         public override void Render()
         {
+            Console.Clear(); // 콘솔 화면 지우기
             Console.WriteLine("상점");
             Console.WriteLine("--------------------");
             Console.WriteLine($"[1] {forSalePotion.Name} - {forSalePotion.Price} 골드");
 
             Console.WriteLine("[0] 나가기");
             Console.WriteLine("--------------------");
+            Console.WriteLine
+               ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
-
+           
             Console.WriteLine("--------------------");
         }
 
@@ -46,7 +49,7 @@ namespace ProjectWh
                switch (input)
             {
                 case ConsoleKey.D1:
-                    BuyItem(forSalePotion, forSalePotion.Price);
+                    BuyAndUsePotion(forSalePotion, forSalePotion.Price);
                     break;
                 case ConsoleKey.D0:
                     Game.ChangeScene("WorldMap");
@@ -60,26 +63,24 @@ namespace ProjectWh
             }
         }
 
-        private void BuyItem(Item item, int price)
+        private void BuyAndUsePotion(AttackPotion potion, int price)
         {
             if (Game.player.Inventory.UseGold(price))
             {
-                Game.player.Inventory.AddItem(item);
-                Console.WriteLine($"{item.Name}을(를) {price} 골드에 구매했습니다.");
+                potion.Use(Game.player); 
+                Console.WriteLine($"{potion.Name} 구매하여 사용했습니다. 공격력이 {potion.AttackBonus}만큼 증가했습니다.");
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
             else
             {
-                
+                Console.WriteLine("골드가 부족합니다.");
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
-            
-            Console.ReadKey(true);
         }
 
-       
+
 
 
 

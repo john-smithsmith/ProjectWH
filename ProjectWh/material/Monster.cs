@@ -10,9 +10,11 @@ namespace ProjectWh
     public class Monster
     {
         public string Name { get; protected set; }
-        public int Hp { get; protected set; }
+        public int Hp { get; set; }
         
         public Item DropItem { get; protected set; }
+
+        
 
        
     }
@@ -24,6 +26,7 @@ namespace ProjectWh
             Name = name;
             Hp = hp;
             DropItem = dropItem;
+            
         }
     }
 }

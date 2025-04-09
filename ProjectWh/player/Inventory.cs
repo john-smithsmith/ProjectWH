@@ -19,14 +19,34 @@ namespace ProjectWh
 
         public void AddItem(Item item)
         {
-            Items.Add(item);
-            Console.WriteLine($"{item.Name}확득");
+            if (item is Gold gold)
+            {
+                Gold += gold.Amount;
+                Console.WriteLine($"{gold.Amount} 골드를 획득했습니다. 현재 소지 골드: {Gold}");
+            }
+            else
+            {
+                Items.Add(item);
+                Console.WriteLine($"{item.Name} 획득");
+            }
         }
 
         public void RemoveItem(Item item)
         {
-            Items.Remove(item);
-            Console.WriteLine($"{item.Name}손실");
+            if (item is Gold gold)
+            {
+                if (Gold >= gold.Amount)
+                {
+                    Gold -= gold.Amount;
+                    Console.WriteLine($"{gold.Amount} 골드를 잃었습니다. 현재 소지 골드: {Gold}");
+                }
+                
+            }
+            else
+            {
+                Items.Remove(item);
+                Console.WriteLine($"{item.Name} 손실");
+            }
         }
 
         public void GetGold(int amount)
@@ -60,6 +80,7 @@ namespace ProjectWh
             Console.WriteLine($"소지 골드: {Gold}");
             if (Items.Count > 0)
             {
+                Console.WriteLine("아이템 목록:");
                 for (int i = 0; i < Items.Count; i++)
                 {
                     Console.WriteLine($"- {Items[i].Name}");

@@ -22,7 +22,7 @@ namespace ProjectWh
 
     public class AttackPotion : Item
     {
-        public int AttackBonus { get; private set; }
+        public int AttackBonus { get;  set; }
 
         public AttackPotion(string name, int attackBonus, int price = 0) : base(name, price)
         {
@@ -31,7 +31,7 @@ namespace ProjectWh
 
         public void Use(Player player)
         {
-            player.IncreaseAttack(AttackBonus);
+            player.Attack += AttackBonus;
             Console.WriteLine($"{Name}을 사용하여 공격력이 영구적으로 {AttackBonus}만큼 증가했습니다.");
         }
     }
