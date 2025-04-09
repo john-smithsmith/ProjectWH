@@ -26,13 +26,14 @@ namespace ProjectWh
         {
             
             Console.WriteLine("1번동굴");
-            Console.WriteLine($"몬스터: {monster.Name} (HP: {monster.Hp})");
+           
+
             Console.WriteLine
                 ($"플레이어 HP: {Game.player.HP}," +//나중에 고칠것
                 $" 공격력: {Game.player.Attack},");
 
-            
-            
+            Console.WriteLine("[E] 공격");
+
             Console.WriteLine("--------------------");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
             Console.WriteLine("--------------------");
@@ -50,14 +51,22 @@ namespace ProjectWh
 
         public override void Result()
         {
+
+            switch (input)
+            {
+
+
+                
+
+                case ConsoleKey.D1:
+                    Game.ChangeScene("Cave02");
+                    break;
+
+
+            }
+
             
-                switch (input)
-                {
-                    case ConsoleKey.D1:
-                        Game.ChangeScene("Cave02");
-                        break;
-                }
-            
+
         }
     }
 }

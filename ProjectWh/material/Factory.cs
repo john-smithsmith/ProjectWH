@@ -24,10 +24,10 @@ namespace ProjectWh
 
     public static class MonsterFactory
     {
-        public static Monster CreateDummyScarecrow(string name, int hp, Item dropItem = null)
-        {
-            return new DummyScarecrow(name, hp, dropItem);
-        }
+        //public static Monster CreateDummyScarecrow(string name, int hp, Item dropItem = null)
+        //{
+        //    return new DummyScarecrow(name, hp, dropItem);
+        //}
 
         // 1번 방 허수아비
         public static Monster CreateCave01Scarecrow()

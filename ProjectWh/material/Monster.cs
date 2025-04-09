@@ -13,6 +13,8 @@ namespace ProjectWh
         public int Hp { get; protected set; }
         
         public Item DropItem { get; protected set; }
+
+       
     }
 
     public class DummyScarecrow : Monster
