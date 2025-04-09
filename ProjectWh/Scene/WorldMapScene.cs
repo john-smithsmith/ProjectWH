@@ -18,13 +18,17 @@ namespace ProjectWh
         {
 
             mapGrid = new string[,]
-            {
-            {"#", "#", "#", "#", "#", "#", "#"},
-            {"#", ".", ".", ".", ".", ".", "#"},
-            {"#", ".", ".", ".", ".", ".", "#"},
-            {"#", ".", ".", ".", ".", "C", "#"},
-            {"#", "#", "#", "#", "#", "#", "#"}
-            };
+        {
+            {"#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"},
+            {"#", ".", "C1", ".", ".", ".", ".", ".", ".", ".", ".", ".", "#"},
+            {"#", "#", "#", "#", "#", ".", ".", ".", ".", ".", ".", ".", "#"}, // C1: 동굴 1, S: 상점, C2: 동굴 2
+            {"#", ".", ".", "C2", ".", ".", ".", ".", ".", ".", ".", ".", "#"},
+            {"#", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", "#"},
+            {"#", ".", ".", ".", ".", "C3", ".", "S", ".", ".", ".", ".", "#"}, // C3: 동굴 3, B: 보스 방, C4: 동굴 4
+            {"#", ".", ".", ".", ".", ".", ".", ".", ".", "C4", ".", ".", "#"},
+            {"#", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", "B", "#"},
+            {"#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"}
+        };
 
             // 플레이어
             playerX = 1;
@@ -53,11 +57,11 @@ namespace ProjectWh
                 Console.WriteLine();
             }
 
-            Console.WriteLine("--------------------");
+            Console.WriteLine("----------------------------------");
             Console.WriteLine("[W/A/S/D] 이동");
-            Console.WriteLine("[E]");
+            Console.WriteLine("[E] 입장");
 
-            Console.WriteLine("--------------------");
+            Console.WriteLine("----------------------------------");
         }
 
 
@@ -101,18 +105,35 @@ namespace ProjectWh
             switch (input)
             {
                 case ConsoleKey.E:
-                    if (mapGrid[playerY, playerX] == "C")
+                    string NowGrid = mapGrid[playerY, playerX];
+                    switch (NowGrid)
                     {
-                        Console.WriteLine("동굴로 들어갑니다...");
-                        ConsoleKey enterInput = Console.ReadKey(true).Key;
-                        if (enterInput == ConsoleKey.E)
-                        {
+                        case "C1":
+                            Console.WriteLine("동굴 1로 들어갑니다");
                             Game.ChangeScene("Cave01");
-                        }
+                            break;
+                        case "C2":
+                            Console.WriteLine("동굴 2로 들어갑니다");
+                            Game.ChangeScene("Cave02");
+                            break;
+                        case "C3":
+                            Console.WriteLine("동굴 3로 들어갑니다");
+                            Game.ChangeScene("Cave03");
+                            break;
+                        case "C4":
+                            Console.WriteLine("동굴 4로 들어갑니다");
+                            Game.ChangeScene("Cave04");
+                            break;
+                        case "B":
+                            Console.WriteLine("보스 방으로 들어갑니다");
+                            Game.ChangeScene("Boss");
+                            break;
+                        case "S":
+                            Console.WriteLine("상점으로 들어갑니다");
+                            Game.ChangeScene("Shop");
+                            break;
                     }
                     break;
-
-
             }
         }
     }

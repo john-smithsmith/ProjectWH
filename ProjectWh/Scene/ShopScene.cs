@@ -48,7 +48,7 @@ namespace ProjectWh
                    
               
                 case ConsoleKey.D0:
-                    Game.ChangeScene("");
+                    Game.ChangeScene("WorldMap");
                     break;
 
             }

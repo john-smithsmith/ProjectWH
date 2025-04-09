@@ -13,7 +13,7 @@ namespace ProjectWh
         public override void Render()
         {
             Console.WriteLine("게임 시작");
-            Console.WriteLine("-----");
+            Console.WriteLine("------------------------");
             Console.WriteLine("[1] 모험을 떠난다"); // 월드맵으로 이동
             Console.WriteLine("[2] 상점으로 간다");
             Console.WriteLine("[0] 종료");
