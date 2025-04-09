@@ -22,7 +22,7 @@ namespace ProjectWh
             if (item is Gold gold)
             {
                 Gold += gold.Amount;
-                Console.WriteLine($"{gold.Amount} 골드를 획득했습니다. 현재 소지 골드: {Gold}");
+                Console.WriteLine($"{gold.Amount} 골드를 획득했습니다 현재 골드: {Gold}");
             }
             else
             {
@@ -38,7 +38,7 @@ namespace ProjectWh
                 if (Gold >= gold.Amount)
                 {
                     Gold -= gold.Amount;
-                    Console.WriteLine($"{gold.Amount} 골드를 잃었습니다. 현재 소지 골드: {Gold}");
+                    Console.WriteLine($"{gold.Amount} 골드를 잃었습니다 현재 골드: {Gold}");
                 }
                 
             }
@@ -52,7 +52,7 @@ namespace ProjectWh
         public void GetGold(int amount)
         {
             Gold += amount;
-            Console.WriteLine($"{amount} 골드를 획득 현재 소지 골드: {Gold}");
+            Console.WriteLine($"{amount} 골드를 획득 현재 골드: {Gold}");
         }
 
         public bool UseGold(int amount)
@@ -60,7 +60,7 @@ namespace ProjectWh
             if (Gold >= amount)
             {
                 Gold -= amount;
-                Console.WriteLine($"{amount} 골드를 사용 현재 소지 골드: {Gold}");
+                Console.WriteLine($"{amount} 골드를 사용 현재 골드: {Gold}");
                 return true;
             }
             else

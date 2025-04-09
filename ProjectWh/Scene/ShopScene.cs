@@ -9,12 +9,12 @@ namespace ProjectWh
     public class ShopScene : MainScene
     {
         private ConsoleKey input;
-        private AttackPotion forSalePotion;
+        private AttackPotion ShopPotion;
 
         public ShopScene()
         {
-           
-            forSalePotion = new AttackPotion("공격력 포션", 10, 150);
+
+            ShopPotion = new AttackPotion("공격력 포션", 10, 150);
         }
 
         public override void Render()
@@ -22,7 +22,7 @@ namespace ProjectWh
             Console.Clear(); // 콘솔 화면 지우기
             Console.WriteLine("상점");
             Console.WriteLine("--------------------");
-            Console.WriteLine($"[1] {forSalePotion.Name} - {forSalePotion.Price} 골드");
+            Console.WriteLine($"[1] {ShopPotion.Name} - {ShopPotion.Price} 골드");
 
             Console.WriteLine("[0] 나가기");
             Console.WriteLine("--------------------");
@@ -49,13 +49,13 @@ namespace ProjectWh
                switch (input)
             {
                 case ConsoleKey.D1:
-                    BuyAndUsePotion(forSalePotion, forSalePotion.Price);
+                    BuyAndUsePotion(ShopPotion, ShopPotion.Price);
                     break;
                 case ConsoleKey.D0:
                     Game.ChangeScene("WorldMap");
                     break;
                 default:
-                    Console.WriteLine("잘못된 입력입니다.");
+                    Console.WriteLine("잘못된 입력입니다");
                     Console.ReadKey(true);
                     Game.ChangeScene("Shop");
                     break;
@@ -68,13 +68,13 @@ namespace ProjectWh
             if (Game.player.Inventory.UseGold(price))
             {
                 potion.Use(Game.player); 
-                Console.WriteLine($"{potion.Name} 구매하여 사용했습니다. 공격력이 {potion.AttackBonus}만큼 증가했습니다.");
+                Console.WriteLine($"{potion.Name} 구매했습니다 공격력이 {potion.AttackBonus} 증가했습니다");
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
             else
             {
-                Console.WriteLine("골드가 부족합니다.");
+                Console.WriteLine("골드가 부족합니다");
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
