@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace ProjectWh
 {
-    public static class ItemFactory
-    {
-       
-    }
 
     public static class MonsterFactory
     {
@@ -18,19 +14,19 @@ namespace ProjectWh
         
         public static Monster CreateCave01Scarecrow()// 1번 방 허수아비
         {
-            return new DummyScarecrow("연습용 허수아비", 100, new Gold(50));
+            return new DummyScarecrow("연습용 허수아비", 100, new Gold(10));
         }
 
         
         public static Monster CreateCave02Scarecrow()// 2번 방 허수아비
         {
-            return new DummyScarecrow("강한 허수아비", 200, new Gold(50)); 
+            return new DummyScarecrow("강한 허수아비", 200, new Gold(20)); 
         }
 
         
         public static Monster CreateCave03Scarecrow()// 3번 방 허수아비
         {
-            return new DummyScarecrow("매우 강한 허수아비", 300, new Gold(50)); 
+            return new DummyScarecrow("매우 강한 허수아비", 300, new Gold(30)); 
         }
 
         
@@ -42,7 +38,7 @@ namespace ProjectWh
         
         public static Monster CreateBossScarecrow()// 보스 허수아비
         {
-            return new DummyScarecrow("보스 허수아비", 500, new Gold(50)); 
+            return new DummyScarecrow("보스 허수아비", 500, new Gold(1000)); 
         }
     }
 }

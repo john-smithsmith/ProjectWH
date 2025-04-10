@@ -48,4 +48,15 @@ namespace ProjectWh
             Amount = amount;
         }
     }
-}
+
+    public class BossKey : Item
+    {
+        public string BossRoomName { get; private set; }
+
+        public BossKey(string name, string bossroomname) : base(name)
+        {
+            BossRoomName = bossroomname;
+        }
+    }
+
+    }

@@ -10,11 +10,13 @@ namespace ProjectWh
     {
         private ConsoleKey input;
         private AttackPotion ShopPotion;
+        private BossKey ShopBossKey;
 
         public ShopScene()
         {
 
             ShopPotion = new AttackPotion("공격력 포션", 10, 150);
+            ShopBossKey = new BossKey("보스룸키", "BossScene");
         }
 
         public override void Render()
@@ -23,13 +25,13 @@ namespace ProjectWh
             Console.WriteLine("상점");
             Console.WriteLine("--------------------");
             Console.WriteLine($"[1] {ShopPotion.Name} - {ShopPotion.Price} 골드");
-
+            Console.WriteLine($"[2] {ShopBossKey.Name} - {1000} 골드");
             Console.WriteLine("[0] 나가기");
             Console.WriteLine("--------------------");
             Console.WriteLine
                ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
-           
+
             Console.WriteLine("--------------------");
         }
 
@@ -45,12 +47,17 @@ namespace ProjectWh
 
         public override void Result()
         {
-           
-               switch (input)
+
+            switch (input)
             {
                 case ConsoleKey.D1:
                     BuyAndUsePotion(ShopPotion, ShopPotion.Price);
                     break;
+
+                case ConsoleKey.D2:
+                    BuyItem(ShopBossKey, 1000);
+                    break;
+
                 case ConsoleKey.D0:
                     Game.ChangeScene("WorldMap");
                     break;
@@ -67,7 +74,7 @@ namespace ProjectWh
         {
             if (Game.player.Inventory.UseGold(price))
             {
-                potion.Use(Game.player); 
+                potion.Use(Game.player);
                 Console.WriteLine($"{potion.Name} 구매했습니다 공격력이 {potion.AttackBonus} 증가했습니다");
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
@@ -80,9 +87,24 @@ namespace ProjectWh
             }
         }
 
+        private void BuyItem(Item item, int price)
+        {
+            if (Game.player.Inventory.UseGold(price))
+            {
+                Game.player.Inventory.AddItem(item);
+                Console.WriteLine($"{item.Name} {price} 골드에 구매했습니다");
+                Console.ReadKey(true);
+                Game.ChangeScene("Shop");
+            }
+            else
+            {
+                Console.WriteLine("골드가 부족");
+                Console.ReadKey(true);
+                Game.ChangeScene("Shop");
+            }
 
 
 
-
+        }
     }
 }

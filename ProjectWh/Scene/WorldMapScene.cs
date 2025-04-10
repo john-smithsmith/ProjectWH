@@ -125,7 +125,19 @@ namespace ProjectWh
                             Game.ChangeScene("Cave04");
                             break;
                         case "B":
-                            Console.WriteLine("보스 방으로 들어갑니다");
+                            bool hasBossKey = Game.player.Inventory.Items.Any(item => item is BossKey && ((BossKey)item).BossRoomName == "BossScene");
+                            if (hasBossKey)
+                            {
+                                Game.ChangeScene("Boss");
+                                Console.WriteLine("보스 방으로 들어갑니다");
+                            }
+                            else
+                            {
+                                Console.WriteLine("열쇠가 없습니다");
+                                Console.ReadKey(true); 
+                            }
+                            break;
+
                             Game.ChangeScene("Boss");
                             break;
                         case "S":
