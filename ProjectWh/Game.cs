@@ -10,7 +10,7 @@ namespace ProjectWh
     {
         private static Dictionary<string, MainScene> sceneDic;
         private static MainScene curScene;
-        private static bool GameOver;
+        public static bool GameOver;
         public static Player player;
 
 
@@ -47,9 +47,10 @@ namespace ProjectWh
             sceneDic.Add("Cave04", new Cave04Scene());
             sceneDic.Add("Boss", new BossScene());//보스룸
             sceneDic.Add("Shop", new ShopScene());
-
-
             
+
+
+
 
             curScene = sceneDic["Title"];
         }
@@ -63,7 +64,7 @@ namespace ProjectWh
 
         private static void End()
         {
-
+            Console.WriteLine("게임 종료(real)");
         }
 
     }

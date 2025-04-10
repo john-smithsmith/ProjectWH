@@ -47,11 +47,10 @@ namespace ProjectWh
             }
             else
             {
-                Console.WriteLine($"{monster.Name}을(를) 처치했습니다!");
-
-                monster = MonsterFactory.CreateBossScarecrow();
-                Console.WriteLine("새로운 허수아비가 나타났습니다!");
+                Console.WriteLine($"game claer");
                 Console.ReadKey(true);
+               
+                Game.GameOver = true;
             }
         }
 

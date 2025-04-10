@@ -12,11 +12,18 @@ namespace ProjectWh
         private ConsoleKey input;
         public override void Render()
         {
-            Console.WriteLine("게임 시작");
-            Console.WriteLine("------------------------");
-            Console.WriteLine("[1] 모험을 떠난다"); // 월드맵으로 이동
+            Console.WriteLine("시작화면");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("여기는 허수아비 밖에 없는 세상입니다");
+            Console.WriteLine("탈출하기 위해서는 최강의 허수아비를 이겨야 합니다");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("------------------------------------------------");
+            Console.WriteLine("[1] 전부 부셔주겠다"); // 월드맵으로 이동
            
-            Console.WriteLine("[0] 종료");
+            
         }
 
         public override void Input()
