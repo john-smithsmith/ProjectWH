@@ -21,7 +21,7 @@ namespace ProjectWh
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("------------------------------------------------");
-            Console.WriteLine("[1] 전부 부셔주겠다"); // 월드맵으로 이동
+            Console.WriteLine("[1] 빨리 탈출하자"); // 월드맵으로 이동
            
             
         }

@@ -25,7 +25,7 @@ namespace ProjectWh
             Console.WriteLine("");
             Console.WriteLine("1번동굴");
             Console.WriteLine("=========================================");
-            Console.WriteLine($" 몬스터: {monster.Name} HP: {monster.Hp}       ");
+            Console.WriteLine($"         몬스터: {monster.Name}        ");
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                 ------                |");
             Console.WriteLine("|               ||      ||              |");
@@ -37,7 +37,7 @@ namespace ProjectWh
             Console.WriteLine("|                   ||                  |");
             Console.WriteLine("|                   ||                  |");
             Console.WriteLine("|                ========               |");
-            Console.WriteLine("|                                       |");
+            Console.WriteLine($"|                HP: {monster.Hp}                |");
             Console.WriteLine("|                                       |");
             Console.WriteLine("========================================");
             Console.WriteLine("[E] 공격                                |");

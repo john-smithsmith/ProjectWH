@@ -64,7 +64,10 @@ namespace ProjectWh
             Console.WriteLine("=======================================");
             Console.WriteLine("|            [W/A/S/D] 이동            |");
             Console.WriteLine("|                  [E] 입장            |");
-            Console.WriteLine("=======================================");
+            Console.WriteLine("========================================");
+            Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
+            Console.WriteLine("========================================");
+            Console.WriteLine($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack}");
         }
 
 

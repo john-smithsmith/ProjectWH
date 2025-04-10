@@ -65,7 +65,7 @@ namespace ProjectWh
                     break;
 
                 case ConsoleKey.D2:
-                    BuyItem(ShopBossKey, 1000);
+                    BuyItem(ShopBossKey, 10);
                     break;
 
                 case ConsoleKey.D0:

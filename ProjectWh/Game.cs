@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjectWh.Scene;
 
 namespace ProjectWh
 {
@@ -22,10 +23,8 @@ namespace ProjectWh
             {
                 Console.Clear();
                 curScene.Render();
-                
                 curScene.Input();
                 curScene.Update();
-                
                 curScene.Result();
             }
             End();
@@ -47,7 +46,7 @@ namespace ProjectWh
             sceneDic.Add("Cave04", new Cave04Scene());
             sceneDic.Add("Boss", new BossScene());//보스룸
             sceneDic.Add("Shop", new ShopScene());
-            
+            sceneDic.Add("Ending", new EndingScene());
 
 
 
@@ -64,7 +63,7 @@ namespace ProjectWh
 
         private static void End()
         {
-            Console.WriteLine("게임 종료(real)");
+           
         }
 
     }

@@ -11,6 +11,7 @@ namespace ProjectWh
     {
         private ConsoleKey input;
         private Monster monster;
+        private bool bossDied = false;
 
         public BossScene()
         {
@@ -21,9 +22,9 @@ namespace ProjectWh
         public override void Render()
         {
             Console.WriteLine("");
-            Console.WriteLine("보스룸");
+            Console.WriteLine("보스동굴");
             Console.WriteLine("=========================================");
-            Console.WriteLine($" 몬스터: {monster.Name} HP: {monster.Hp}|");
+            Console.WriteLine($"    몬스터: {monster.Name}        ");
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                 ------                |");
             Console.WriteLine("|               ||      ||              |");
@@ -35,7 +36,7 @@ namespace ProjectWh
             Console.WriteLine("|                   ||                  |");
             Console.WriteLine("|                   ||                  |");
             Console.WriteLine("|                ========               |");
-            Console.WriteLine("|                                       |");
+            Console.WriteLine($"|                HP: {monster.Hp}                |");
             Console.WriteLine("|                                       |");
             Console.WriteLine("========================================");
             Console.WriteLine("[E] 공격                                |");
@@ -53,37 +54,41 @@ namespace ProjectWh
 
         public override void Update()
         {
-            if (monster.Hp > 0)
+            if (monster.Hp <= 0)
             {
+                if (monster.Hp <= 0 && !bossDied)
+                {
+                    bossDied = true;
+                    Console.WriteLine("당신은 승리하였다");
+                }
 
-            }
-            else
-            {
-                Console.WriteLine($"game claer");
-                Console.ReadKey(true);
-               
-                Game.GameOver = true;
+
             }
         }
 
         public override void Result()
         {
             switch (input)
-            { 
-            case ConsoleKey.E:
-                if (monster.Hp > 0)
-                {
-                    Game.player.AttackMonster(monster);
-                }
-                
+            {
+                case ConsoleKey.E:
+                    if (monster.Hp > 0)
+                    {
+                        Game.player.AttackMonster(monster);
+                    }
+                    else if (bossDied) 
+                    {
+                        Console.ReadKey(true); 
+                        Game.ChangeScene("Ending");
+                    }
+                    break;
+                case ConsoleKey.D0:
+                    Game.ChangeScene("WorldMap");
+                    break;
+                default:
+                    Game.ChangeScene("Boss");
+                    break;
 
-                break;
-            case ConsoleKey.D0:
-                Game.ChangeScene("WorldMap");
-                break;
-            default:
-                Game.ChangeScene("Boss");
-                break;
+                
             }
         }
     }
