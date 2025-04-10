@@ -65,7 +65,7 @@ namespace ProjectWh
                     break;
 
                 case ConsoleKey.D2:
-                    BuyItem(ShopBossKey, 10);
+                    BuyItem(ShopBossKey, 1000);
                     break;
 
                 case ConsoleKey.D0:
@@ -85,13 +85,17 @@ namespace ProjectWh
             if (Game.player.Inventory.UseGold(price))
             {
                 potion.Use(Game.player);
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"{potion.Name} 구매했습니다 공격력이 {potion.AttackBonus} 증가했습니다");
+                Console.ResetColor();
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("골드가 부족합니다");
+                Console.ResetColor();
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
@@ -102,13 +106,17 @@ namespace ProjectWh
             if (Game.player.Inventory.UseGold(price))
             {
                 Game.player.Inventory.AddItem(item);
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"{item.Name} {price} 골드에 구매했습니다");
+                Console.ResetColor();
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("골드가 부족");
+                Console.ResetColor();
                 Console.ReadKey(true);
                 Game.ChangeScene("Shop");
             }

@@ -26,7 +26,9 @@ namespace ProjectWh
             Console.WriteLine("|                ========               |");
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                                       |");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("|         [Press anykey to start]       |");
+            Console.ResetColor();
             Console.WriteLine("========================================");
         }
 

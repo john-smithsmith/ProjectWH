@@ -24,7 +24,9 @@ namespace ProjectWh
             Console.WriteLine("");
             Console.WriteLine("보스동굴");
             Console.WriteLine("=========================================");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"    몬스터: {monster.Name}        ");
+            Console.ResetColor();
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                 ------                |");
             Console.WriteLine("|               ||      ||              |");
@@ -36,7 +38,9 @@ namespace ProjectWh
             Console.WriteLine("|                   ||                  |");
             Console.WriteLine("|                   ||                  |");
             Console.WriteLine("|                ========               |");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"|                HP: {monster.Hp}                |");
+            Console.ResetColor();
             Console.WriteLine("|                                       |");
             Console.WriteLine("========================================");
             Console.ForegroundColor = ConsoleColor.Green;

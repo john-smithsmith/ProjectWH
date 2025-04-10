@@ -51,7 +51,21 @@ namespace ProjectWh
                 {
                     if (x == playerX && y == playerY)
                     {
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("P ");
+                        Console.ResetColor();
+                    }
+                    else if (mapGrid[y, x] == "#")
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.Write("# ");
+                        Console.ResetColor();
+                    }
+                    else if (mapGrid[y, x] == "1" || mapGrid[y, x] == "2" || mapGrid[y, x] == "3" || mapGrid[y, x] == "4" || mapGrid[y, x] == "B" || mapGrid[y, x] == "S")
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red; 
+                        Console.Write(mapGrid[y, x] + " ");
+                        Console.ResetColor();
                     }
                     else
                     {
