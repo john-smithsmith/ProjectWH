@@ -10,23 +10,24 @@ namespace ProjectWh
     {
         public override void Render()
         {
-            Console.WriteLine("========================================");
+            Console.WriteLine(" ========================================");
             Console.WriteLine("|             허수아비 부수기            |");
+            Console.WriteLine(" ========================================");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                 ------                |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ---------               |");
+            Console.WriteLine("|                   ||                  |");
+            Console.WriteLine("|                   ||                  |");
+            Console.WriteLine("|                ========               |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|         [Press anykey to start]       |");
             Console.WriteLine("========================================");
-            Console.WriteLine("  ");
-            Console.WriteLine("                 ------");
-            Console.WriteLine("                |      |");
-            Console.WriteLine("                |      |");
-            Console.WriteLine("                |      |");
-            Console.WriteLine("                |      |");
-            Console.WriteLine("                |      |");
-            Console.WriteLine("                --------");
-            Console.WriteLine("                   ||");
-            Console.WriteLine("                   ||");
-            Console.WriteLine("                ========");
-            Console.WriteLine("  ");
-            Console.WriteLine("  ");
-            Console.WriteLine("         [Press anykey to start]         ");
         }
 
         public override void Input()

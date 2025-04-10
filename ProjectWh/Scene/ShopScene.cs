@@ -11,6 +11,7 @@ namespace ProjectWh
         private ConsoleKey input;
         private AttackPotion ShopPotion;
         private BossKey ShopBossKey;
+        private string shopName = "아이템 상점";
 
         public ShopScene()
         {
@@ -22,17 +23,26 @@ namespace ProjectWh
         public override void Render()
         {
             Console.Clear(); // 콘솔 화면 지우기
-            Console.WriteLine("상점");
-            Console.WriteLine("--------------------");
+            Console.WriteLine("========================================");
+            Console.WriteLine($"           <{shopName}>           ");
+            Console.WriteLine("========================================");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("어서 오세요! ");
+            Console.WriteLine("중요한 물건은 여기 다 있습니다!");
+            Console.WriteLine();
+            Console.ResetColor();
+            Console.WriteLine("------------------ 판매 목록 ------------");
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"[1] {ShopPotion.Name} - {ShopPotion.Price} 골드");
             Console.WriteLine($"[2] {ShopBossKey.Name} - {1000} 골드");
             Console.WriteLine("[0] 나가기");
-            Console.WriteLine("--------------------");
-            Console.WriteLine
-               ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
+            Console.ResetColor();
+            Console.WriteLine("----------------------------------------");
+           
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
 
-            Console.WriteLine("--------------------");
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack}");
         }
 
         public override void Input()

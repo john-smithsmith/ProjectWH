@@ -38,7 +38,7 @@ namespace ProjectWh
         
         public static Monster CreateBossScarecrow()// 보스 허수아비
         {
-            return new DummyScarecrow("보스 허수아비", 500, new Gold(1000)); 
+            return new DummyScarecrow("가장 강력한 보스 허수아비", 500, new Gold(1000)); 
         }
     }
 }

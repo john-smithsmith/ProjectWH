@@ -32,7 +32,7 @@ namespace ProjectWh
         public void Use(Player player)
         {
             player.Attack += AttackBonus;
-            Console.WriteLine($"{Name}을 사용하여 공격력이 영구적으로 {AttackBonus}만큼 증가했습니다.");
+            
         }
     }
 

@@ -22,18 +22,30 @@ namespace ProjectWh
 
         public override void Render()
         {
-            
+            Console.WriteLine("");
             Console.WriteLine("1번동굴");
-
-            Console.WriteLine($"몬스터: {monster.Name} HP: {monster.Hp}");
-            Console.WriteLine
-                ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
-
-            Console.WriteLine("[E] 공격");
-            Console.WriteLine("[0] 월드맵으로 이동");
-            Console.WriteLine("--------------------");
+            Console.WriteLine("=========================================");
+            Console.WriteLine($" 몬스터: {monster.Name} HP: {monster.Hp}       ");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                 ------                |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ||      ||              |");
+            Console.WriteLine("|               ---------               |");
+            Console.WriteLine("|                   ||                  |");
+            Console.WriteLine("|                   ||                  |");
+            Console.WriteLine("|                ========               |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("========================================");
+            Console.WriteLine("[E] 공격                                |");
+            Console.WriteLine("[0] 월드맵으로 이동                     |");
+            Console.WriteLine("========================================");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
-            Console.WriteLine("--------------------");
+            Console.WriteLine("========================================");
+            Console.WriteLine($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack}");
         }
 
         public override void Input()
@@ -50,7 +62,7 @@ namespace ProjectWh
             }
             else
             {
-                Console.WriteLine($"{monster.Name}을(를) 처치했습니다!");
+                Console.WriteLine($"{monster.Name} 처치했습니다!");
                
                 monster = MonsterFactory.CreateCave01Scarecrow(); 
                 Console.WriteLine("새로운 허수아비가 나타났습니다!");
