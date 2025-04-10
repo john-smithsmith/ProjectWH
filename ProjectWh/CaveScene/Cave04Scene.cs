@@ -24,7 +24,7 @@ namespace ProjectWh
             Console.WriteLine("");
             Console.WriteLine("4번동굴");
             Console.WriteLine("=========================================");
-            Console.WriteLine($"         몬스터: {monster.Name}        ");
+            Console.WriteLine($"      몬스터: {monster.Name}        ");
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                 ------                |");
             Console.WriteLine("|               ||      ||              |");

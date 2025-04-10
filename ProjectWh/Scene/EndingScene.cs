@@ -14,20 +14,20 @@ namespace ProjectWh.Scene
 
         public override void Render()
         {
-            Console.WriteLine("====================================");
+            Console.WriteLine("=========================================");
             Console.WriteLine("           게임 클리어           ");
             Console.WriteLine(" ========================================");
             Console.WriteLine("|                                       |");
-            Console.WriteLine("|                 ------                |");
-            Console.WriteLine("|               ||      ||              |");
-            Console.WriteLine("|               ||      ||              |");
-            Console.WriteLine("|               ||      ||              |");
-            Console.WriteLine("|               ||      ||              |");
-            Console.WriteLine("|               ||      ||              |");
-            Console.WriteLine("|               ---------               |");
-            Console.WriteLine("|                   ||                  |");
-            Console.WriteLine("|                   ||                  |");
-            Console.WriteLine("|                ========               |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|     ||        ------------|           |");
+            Console.WriteLine("|     ||       |            |           |");
+            Console.WriteLine("|     || ======|            |           |");
+            Console.WriteLine("|     ||       |------------|           |");
+            Console.WriteLine("|     ||                                |");
+            Console.WriteLine("|                                       |");
+            Console.WriteLine("|                                       |");
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                                       |");
             Console.WriteLine("========================================");
