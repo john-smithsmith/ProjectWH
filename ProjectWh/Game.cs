@@ -41,12 +41,13 @@ namespace ProjectWh
             sceneDic.Add("Title", new TitleScene());
             sceneDic.Add("Start", new StartScene());//배경설명
             sceneDic.Add("WorldMap", new WorldMapScene());
-            sceneDic.Add("Cave01", new Cave01Scene());//1번방-튜토리얼
+            sceneDic.Add("Cave01", new Cave01Scene());//1번방
             sceneDic.Add("Cave02", new Cave02Scene());
             sceneDic.Add("Cave03", new Cave03Scene());
             sceneDic.Add("Cave04", new Cave04Scene());
             sceneDic.Add("Boss", new BossScene());//보스룸
             sceneDic.Add("Shop", new ShopScene());
+
 
             
 

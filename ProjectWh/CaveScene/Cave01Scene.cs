@@ -30,7 +30,7 @@ namespace ProjectWh
                 ($"플레이어 HP: {Game.player.HP} 공격력: {Game.player.Attack},");
 
             Console.WriteLine("[E] 공격");
-            Console.WriteLine("[1] 월드맵으로 이동");
+            Console.WriteLine("[0] 월드맵으로 이동");
             Console.WriteLine("--------------------");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
             Console.WriteLine("--------------------");
@@ -43,7 +43,7 @@ namespace ProjectWh
 
         public override void Update()
         {
-            // 몬스터가 살아있을 때만 업데이트 로직 실행
+            
             if (monster.Hp > 0)
             {
                
@@ -54,7 +54,7 @@ namespace ProjectWh
                
                 monster = MonsterFactory.CreateCave01Scarecrow(); 
                 Console.WriteLine("새로운 허수아비가 나타났습니다!");
-                Console.ReadKey(true); // 잠시 멈춤
+                Console.ReadKey(true); 
             }
         }
 
@@ -68,14 +68,10 @@ namespace ProjectWh
                     {
                         Game.player.AttackMonster(monster); 
                     }
-                    else
-                    {
-                        Console.WriteLine("공격할 대상이 없습니다.");
-                        Console.ReadKey(true);
-                    }
+                    
                     
                     break;
-                case ConsoleKey.D1:
+                case ConsoleKey.D0:
                     Game.ChangeScene("WorldMap"); 
                     break;
                 default:

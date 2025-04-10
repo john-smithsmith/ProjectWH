@@ -15,7 +15,7 @@ namespace ProjectWh
             Console.WriteLine("게임 시작");
             Console.WriteLine("------------------------");
             Console.WriteLine("[1] 모험을 떠난다"); // 월드맵으로 이동
-            Console.WriteLine("[2] 상점으로 간다");
+           
             Console.WriteLine("[0] 종료");
         }
 
@@ -36,9 +36,7 @@ namespace ProjectWh
                 case ConsoleKey.D1:
                     Game.ChangeScene("WorldMap"); // 월드맵으로 이동
                     break;
-                case ConsoleKey.D2:
-                    Game.ChangeScene("Shop");
-                    break;
+                
                 
                     
             }
