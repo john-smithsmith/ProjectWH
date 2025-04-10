@@ -3,64 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\ProjectWH\\ProjectWh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\cavescene\\cave04scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:cavescene\\cave04scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\endingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\endingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\cavescene\\bossscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:cavescene\\bossscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\shopscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\shopscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\material\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:material\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\cavescene\\bossscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:cavescene\\bossscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\material\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:material\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\worldmapscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\worldmapscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\material\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:material\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\cavescene\\cave04scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:cavescene\\cave04scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\cavescene\\cave03scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,6 +29,50 @@
     {
       "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\cavescene\\cave01scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:cavescene\\cave01scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\worldmapscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\worldmapscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\scene\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:scene\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\material\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:material\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\material\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:material\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|d:\\github\\projectwh\\projectwh\\material\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488C5700-8F83-4290-A5B4-18E17C77DF8D}|ProjectWh.csproj|solutionrelative:material\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +86,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Game.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Game.cs",
               "RelativeDocumentMoniker": "Game.cs",
@@ -100,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\player\\Player.cs",
               "RelativeDocumentMoniker": "player\\Player.cs",
               "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\player\\Player.cs",
               "RelativeToolTip": "player\\Player.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwCoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T08:24:42.756Z",
               "IsPinned": true,
@@ -114,13 +114,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Factory.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Factory.cs",
               "RelativeDocumentMoniker": "material\\Factory.cs",
               "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Factory.cs",
               "RelativeToolTip": "material\\Factory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T15:46:29.841Z",
               "IsPinned": true,
@@ -128,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Monster.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Monster.cs",
               "RelativeDocumentMoniker": "material\\Monster.cs",
@@ -142,59 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShopScene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\ShopScene.cs",
-              "RelativeDocumentMoniker": "Scene\\ShopScene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\ShopScene.cs",
-              "RelativeToolTip": "Scene\\ShopScene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T03:47:10.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Item.cs",
-              "RelativeDocumentMoniker": "material\\Item.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Item.cs",
-              "RelativeToolTip": "material\\Item.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T03:45:46.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\player\\Inventory.cs",
               "RelativeDocumentMoniker": "player\\Inventory.cs",
               "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\player\\Inventory.cs",
               "RelativeToolTip": "player\\Inventory.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T04:08:17.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T03:58:02.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainScene.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\MainScene.cs",
               "RelativeDocumentMoniker": "MainScene.cs",
@@ -207,125 +168,164 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StartScene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\StartScene.cs",
-              "RelativeDocumentMoniker": "Scene\\StartScene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\StartScene.cs",
-              "RelativeToolTip": "Scene\\StartScene.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAjwBoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ShopScene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\ShopScene.cs",
+              "RelativeDocumentMoniker": "Scene\\ShopScene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\ShopScene.cs",
+              "RelativeToolTip": "Scene\\ShopScene.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T03:55:43.334Z",
+              "WhenOpened": "2025-04-10T03:47:10.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Item.cs",
+              "RelativeDocumentMoniker": "material\\Item.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\material\\Item.cs",
+              "RelativeToolTip": "material\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:45:46.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:58:02.958Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EndingScene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\EndingScene.cs",
-              "RelativeDocumentMoniker": "Scene\\EndingScene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\EndingScene.cs",
-              "RelativeToolTip": "Scene\\EndingScene.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T04:04:33.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Cave03Scene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave03Scene.cs",
-              "RelativeDocumentMoniker": "CaveScene\\Cave03Scene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave03Scene.cs",
-              "RelativeToolTip": "CaveScene\\Cave03Scene.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:34:30.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cave04Scene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave04Scene.cs",
-              "RelativeDocumentMoniker": "CaveScene\\Cave04Scene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave04Scene.cs",
-              "RelativeToolTip": "CaveScene\\Cave04Scene.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCMAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:34:39.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BossScene.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\BossScene.cs",
               "RelativeDocumentMoniker": "CaveScene\\BossScene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\BossScene.cs",
-              "RelativeToolTip": "CaveScene\\BossScene.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAcwDsAAAARAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\BossScene.cs*",
+              "RelativeToolTip": "CaveScene\\BossScene.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T15:34:45.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TitleScene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\TitleScene.cs",
-              "RelativeDocumentMoniker": "Scene\\TitleScene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\TitleScene.cs",
-              "RelativeToolTip": "Scene\\TitleScene.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwA0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:58:36.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WorldMapScene.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\WorldMapScene.cs",
-              "RelativeDocumentMoniker": "Scene\\WorldMapScene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\WorldMapScene.cs",
-              "RelativeToolTip": "Scene\\WorldMapScene.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAEwEIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:58:50.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "Cave02Scene.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave02Scene.cs",
               "RelativeDocumentMoniker": "CaveScene\\Cave02Scene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave02Scene.cs",
-              "RelativeToolTip": "CaveScene\\Cave02Scene.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAgAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave02Scene.cs*",
+              "RelativeToolTip": "CaveScene\\Cave02Scene.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T15:34:18.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
+              "Title": "Cave03Scene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave03Scene.cs",
+              "RelativeDocumentMoniker": "CaveScene\\Cave03Scene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave03Scene.cs*",
+              "RelativeToolTip": "CaveScene\\Cave03Scene.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:34:30.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cave04Scene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave04Scene.cs",
+              "RelativeDocumentMoniker": "CaveScene\\Cave04Scene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave04Scene.cs*",
+              "RelativeToolTip": "CaveScene\\Cave04Scene.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:34:39.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EndingScene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\EndingScene.cs",
+              "RelativeDocumentMoniker": "Scene\\EndingScene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\EndingScene.cs*",
+              "RelativeToolTip": "Scene\\EndingScene.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T04:04:33.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Cave01Scene.cs",
               "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave01Scene.cs",
               "RelativeDocumentMoniker": "CaveScene\\Cave01Scene.cs",
-              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave01Scene.cs",
-              "RelativeToolTip": "CaveScene\\Cave01Scene.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\CaveScene\\Cave01Scene.cs*",
+              "RelativeToolTip": "CaveScene\\Cave01Scene.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwC0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T15:27:58.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorldMapScene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\WorldMapScene.cs",
+              "RelativeDocumentMoniker": "Scene\\WorldMapScene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\WorldMapScene.cs",
+              "RelativeToolTip": "Scene\\WorldMapScene.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAASwEMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:58:50.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StartScene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\StartScene.cs",
+              "RelativeDocumentMoniker": "Scene\\StartScene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\StartScene.cs",
+              "RelativeToolTip": "Scene\\StartScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T03:55:43.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TitleScene.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\TitleScene.cs",
+              "RelativeDocumentMoniker": "Scene\\TitleScene.cs",
+              "ToolTip": "D:\\GitHub\\ProjectWH\\ProjectWh\\Scene\\TitleScene.cs",
+              "RelativeToolTip": "Scene\\TitleScene.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:58:36.461Z",
               "EditorCaption": ""
             }
           ]

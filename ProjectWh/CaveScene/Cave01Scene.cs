@@ -40,8 +40,10 @@ namespace ProjectWh
             Console.WriteLine($"|                HP: {monster.Hp}                |");
             Console.WriteLine("|                                       |");
             Console.WriteLine("========================================");
-            Console.WriteLine("[E] 공격                                |");
-            Console.WriteLine("[0] 월드맵으로 이동                     |");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("[E] 공격                                ");
+            Console.WriteLine("[0] 월드맵으로 이동                     ");
+            Console.ResetColor();
             Console.WriteLine("========================================");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
             Console.WriteLine("========================================");
@@ -55,7 +57,7 @@ namespace ProjectWh
 
         public override void Update()
         {
-            
+            //시간제한? timer?
             if (monster.Hp > 0)
             {
                

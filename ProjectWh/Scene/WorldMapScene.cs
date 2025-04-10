@@ -12,8 +12,8 @@ namespace ProjectWh
         private string[,] mapGrid;
         private int playerX;
         private int playerY;
-
-
+        // 로그라이크식 랜덤맵? random?
+        // 몹 처치시 길 오픈?
         public WorldMapScene()
         {
 
@@ -62,8 +62,10 @@ namespace ProjectWh
             }
 
             Console.WriteLine("=======================================");
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("|            [W/A/S/D] 이동            |");
             Console.WriteLine("|                  [E] 입장            |");
+            Console.ResetColor();
             Console.WriteLine("========================================");
             Game.player.Inventory.DisplayInventory(); // 인벤토리 표시
             Console.WriteLine("========================================");

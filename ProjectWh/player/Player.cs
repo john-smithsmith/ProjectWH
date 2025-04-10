@@ -16,6 +16,8 @@ namespace ProjectWh
 
 
         public Inventory Inventory { get; private set; }
+        //장비 아이템?
+
 
         public Player()
         {
@@ -35,7 +37,7 @@ namespace ProjectWh
         public void AttackMonster(Monster monster)
         {
             Console.WriteLine($"{monster.Name} {Attack} 데미지");
-            monster.Hp -= Attack; // 플레이어의 공격력만큼 몬스터의 HP 감소
+            monster.Hp -= Attack; 
             Console.WriteLine($"{monster.Name}의 남은 체력: {monster.Hp}");
 
             if (monster.Hp <= 0)

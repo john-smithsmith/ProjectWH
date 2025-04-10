@@ -13,14 +13,16 @@ namespace ProjectWh
         public override void Render()
         {
             Console.WriteLine("시작화면");
+            Console.WriteLine("=================================================");
             Console.WriteLine("");
-            Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("여기는 허수아비 밖에 없는 세상입니다");
             Console.WriteLine("탈출하기 위해서는 최강의 허수아비를 이겨야 합니다");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.WriteLine("------------------------------------------------");
+            Console.ResetColor();
+            Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("[1] 빨리 탈출하자"); // 월드맵으로 이동
            
             

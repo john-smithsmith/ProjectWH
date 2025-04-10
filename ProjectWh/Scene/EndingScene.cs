@@ -8,14 +8,16 @@ namespace ProjectWh.Scene
 {
     
     public class EndingScene : MainScene
-
+        //움직이는 그림? frame?
     {
         private ConsoleKey input;
 
         public override void Render()
         {
             Console.WriteLine("=========================================");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("           게임 클리어           ");
+            Console.ResetColor();
             Console.WriteLine(" ========================================");
             Console.WriteLine("|                                       |");
             Console.WriteLine("|                                       |");
