@@ -13,7 +13,7 @@ namespace ProjectWh
         private int playerX;
         private int playerY;
         // 로그라이크식 랜덤맵? random?
-        // 몹 처치시 길 오픈?
+        // 몹 처치시 길 오픈? remove?
         public WorldMapScene()
         {
 
@@ -147,7 +147,15 @@ namespace ProjectWh
                             Game.ChangeScene("Cave04");
                             break;
                         case "B":
-                            bool hasBossKey = Game.player.Inventory.Items.Any(item => item is BossKey && ((BossKey)item).BossRoomName == "BossScene");
+                            bool hasBossKey = false;
+                            foreach (var item in Game.player.Inventory.Items)
+                            {
+                                if (item is BossKey && ((BossKey)item).BossRoomName == "BossScene")
+                                {
+                                    hasBossKey = true;
+                                    break;
+                                }
+                            }
                             if (hasBossKey)
                             {
                                 Game.ChangeScene("Boss");
